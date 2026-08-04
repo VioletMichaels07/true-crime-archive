@@ -1,88 +1,38 @@
 # 🔎 True Crime Archive
 
-> **Status:** Active
-> **Maintained by:** Violet Donna Michaels
+> **Status:** Active (and perpetually under construction between midterms)
+> **Maintained by:** Violet Donna Michaels (Duke '29)
 
 ---
 
-## Overview
+## What is this?
 
-Welcome to the **True Crime Archive**, an independent digital archive dedicated to documenting notable criminal investigations, cold cases, missing persons, unidentified individuals, and historical mysteries.
+Hey. Welcome to the **True Crime Archive**. 
 
-This project combines investigative storytelling with modern web technologies to organize publicly available information into searchable case files, interactive timelines, maps, and educational resources.
+I’m Violet—I built this as a side project to organize a massive mess of research notes, case rabbit holes, and timelines I've collected over the years. Instead of keeping everything in chaotic Notion pages or physical notebooks, I wanted to turn it into a clean, searchable web archive. 
 
-The goal is to create a well-organized archive that is informative, respectful, and accessible while serving as both a research project and a portfolio demonstrating web development and data organization skills.
-
----
-
-## Current Focus
-
-* Cold Cases
-* Missing Persons
-* Historical Investigations
-* Criminal Organizations
-* Forensic Science
-* Interactive Timelines
-* Geographic Mapping
-* Crime Data Visualization
+It’s part digital portfolio to sharpen my frontend skills, and part genuine passion project combining my obsession with forensic science and investigative history.
 
 ---
 
-## Repository Structure
+## What I'm Tracking Right Now
+
+* **Cold Cases:** Focusing heavily on regional US cold cases that haven't gotten national media coverage.
+* **Missing Persons:** Structuring public data to make profiles easier to digest and share.
+* **Forensic Breakthroughs:** Writing short explainers on how DNA phenotyping, genealogy, and newer tech change old investigations.
+* **Mapping/Timelines:** Tinkering with lightweight JS scripts to map out movements and event sequences.
+
+*(Check the `scripts/` folder if you want to see some of my messy Python data-parsing scripts—they work, but they aren't pretty).*
+
+---
+
+## Project Structure
 
 ```text
-cases/
-    Individual case files
-
-timelines/
-    Event timelines
-
-maps/
-    Interactive mapping projects
-
-data/
-    Public datasets
-
-images/
-    Photographs and graphics
-
-assets/
-    Website assets
-
-scripts/
-    Data processing tools
-```
-
----
-
-## About the Maintainer
-
-Hello! I'm **Violet Donna Michaels**, a freshman at Duke University majoring in **Biology** with a minor in **Cultural Anthropology**.
-
-Although my academic studies focus on science and culture, I've long been interested in criminal investigations, forensic science, and documentary storytelling. This project is a place to combine those interests while continuing to develop my programming and web development skills.
-
----
-
-## Research Standards
-
-Every case included in this archive is based on publicly available information from reputable sources whenever possible.
-
-This repository strives to:
-
-* Cite reliable sources
-* Respect victims and their families
-* Clearly separate facts from speculation
-* Update information when new developments become available
-* Present information in an organized and educational format
-
----
-
-## Disclaimer
-
-This repository is intended for educational and informational purposes only.
-
-No conclusions presented here should be interpreted as official investigative findings. Anyone with information regarding an active investigation should contact the appropriate law enforcement agency.
-
----
-
-*"Every investigation starts with a question. Every case deserves to be remembered."*
+cases/         # Markdown files for individual case notes & profiles
+timelines/     # JSON & HTML structures for chronological case events
+maps/          # Leaflet/Mapbox experiments 
+data/          # CSVs and raw public datasets I've cleaned up
+images/        # Scanned clippings, public domain assets, diagrams
+assets/        # Custom CSS and styling
+scripts/       # Python scripts I use to automate formatting case files
