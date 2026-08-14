@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Case | True Crime Vault</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">True Crime Vault</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cases.html">Archive</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="submit.html" class="active">Submit Tip</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="form-section">
+            <h1>Case Suggestions & Submissions</h1>
+            <p>Know a lesser-known historical mystery or cold case that deserves deep research? Send a suggestion below.</p>
+            
+            <!-- You can connect this action URL to a free service like Formspree.io -->
+            <form id="submission-form" action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name / Alias (Optional)</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="case-title">Case Name / Subject</label>
+                    <input type="text" id="case-title" name="case_title" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Why should this case be archived?</label>
+                    <textarea id="details" name="details" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Transmit File</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 True Crime Vault.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
