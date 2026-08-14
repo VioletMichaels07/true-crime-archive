@@ -3,7 +3,7 @@
  * Author: Violet Donna Michaels (Duke '29)
  * GitHub: @VioletMichaels07
  * Repository: https://github.com/VioletMichaels07/true-crime-archive
-*/
+ */
 
 :root {
     --bg-color: #121214;
@@ -61,10 +61,11 @@ body.dark-theme {
 .nav-links a {
     color: var(--text-secondary);
     text-decoration: none;
-    transition: color 0.2s;
+    transition: color 0.2s ease;
 }
 
-.nav-links a:hover, .nav-links a.active {
+.nav-links a:hover, 
+.nav-links a.active {
     color: var(--accent-red);
 }
 
@@ -81,12 +82,14 @@ body.dark-theme {
     border: 1px solid var(--border-color);
     padding: 1.5rem;
     border-radius: 6px;
-    transition: transform 0.2s, border-color 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .case-card:hover {
     transform: translateY(-3px);
     border-color: var(--accent-red);
+    box-shadow: 0 6px 12px rgba(143, 29, 29, 0.15);
 }
 
 .badge {
@@ -99,8 +102,15 @@ body.dark-theme {
     text-transform: uppercase;
 }
 
-.badge.unsolved { background-color: rgba(143, 29, 29, 0.3); color: #ff6b6b; }
-.badge.missing { background-color: rgba(200, 150, 20, 0.3); color: #ffd166; }
+.badge.unsolved { 
+    background-color: rgba(143, 29, 29, 0.3); 
+    color: #ff6b6b; 
+}
+
+.badge.missing { 
+    background-color: rgba(200, 150, 20, 0.3); 
+    color: #ffd166; 
+}
 
 .case-meta {
     font-size: 0.85rem;
@@ -114,6 +124,11 @@ body.dark-theme {
     color: var(--accent-red);
     text-decoration: none;
     font-weight: bold;
+    transition: opacity 0.2s ease;
+}
+
+.read-more:hover {
+    opacity: 0.8;
 }
 
 /* Forms & Controls */
@@ -131,6 +146,12 @@ body.dark-theme {
     border: 1px solid var(--border-color);
     color: var(--text-primary);
     border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+#case-search:focus {
+    border-color: var(--accent-red);
 }
 
 .tag-filters {
@@ -145,9 +166,11 @@ body.dark-theme {
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 4px;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
-.filter-btn.active, .filter-btn:hover {
+.filter-btn.active, 
+.filter-btn:hover {
     background: var(--accent-red);
     color: white;
     border-color: var(--accent-red);
@@ -163,13 +186,21 @@ body.dark-theme {
     color: var(--text-secondary);
 }
 
-.form-group input, .form-group textarea {
+.form-group input, 
+.form-group textarea {
     width: 100%;
     padding: 0.8rem;
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     color: var(--text-primary);
     border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    border-color: var(--accent-red);
 }
 
 .submit-btn {
@@ -180,6 +211,7 @@ body.dark-theme {
     font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
+    transition: background 0.2s ease;
 }
 
 .submit-btn:hover {
