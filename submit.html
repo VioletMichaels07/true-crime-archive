@@ -3,53 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit a Case | True Crime Vault</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <title>Suggest a Case | True Crime Archive</title>
+
+    <meta
+        name="description"
+        content="Suggest a historical mystery, cold case, or missing-person case for possible inclusion in the True Crime Archive maintained by Violet Donna Michaels."
+    >
+
+    <meta name="author" content="Violet Donna Michaels">
+
+    <link
+        rel="canonical"
+        href="https://violetmichaels07.github.io/true-crime-archive/submit.html"
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="dark-theme">
+
     <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">True Crime Vault</a>
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="index.html" class="logo">
+                True Crime Archive
+            </a>
+
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="cases.html">Archive</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="submit.html" class="active">Submit Tip</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="cases.html">Archive</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="submit.html" class="active">
+                        Suggest a Case
+                    </a>
+                </li>
             </ul>
+
         </nav>
     </header>
 
     <main class="container">
+
         <section class="form-section">
-            <h1>Case Suggestions & Submissions</h1>
-            <p>Know a lesser-known historical mystery or cold case that deserves deep research? Send a suggestion below.</p>
-            
-            <!-- You can connect this action URL to a free service like Formspree.io -->
-            <form id="submission-form" action="https://formspree.io/f/your-form-id" method="POST">
+
+            <h1>Suggest a Case</h1>
+
+            <p>
+                Know of a lesser-known historical mystery, cold case, or
+                documented investigation that may be appropriate for the
+                archive? You can use this page to suggest a subject for
+                future research.
+            </p>
+
+            <p class="case-meta">
+                Please do not submit confidential information, personal
+                identifying information, or information that you obtained
+                privately. The archive focuses on publicly documented cases
+                and research materials.
+            </p>
+
+            <!--
+                FORM NOTE:
+                Replace the action URL with a real form endpoint before
+                enabling submissions.
+            -->
+
+            <form
+                id="submission-form"
+                action="#"
+                method="POST"
+            >
+
                 <div class="form-group">
-                    <label for="name">Your Name / Alias (Optional)</label>
-                    <input type="text" id="name" name="name">
+
+                    <label for="name">
+                        Your Name / Alias (Optional)
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                    >
+
                 </div>
 
                 <div class="form-group">
-                    <label for="case-title">Case Name / Subject</label>
-                    <input type="text" id="case-title" name="case_title" required>
+
+                    <label for="case-title">
+                        Case Name / Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="case-title"
+                        name="case_title"
+                        required
+                    >
+
                 </div>
 
                 <div class="form-group">
-                    <label for="details">Why should this case be archived?</label>
-                    <textarea id="details" name="details" rows="6" required></textarea>
+
+                    <label for="details">
+                        Why should this case be researched?
+                    </label>
+
+                    <textarea
+                        id="details"
+                        name="details"
+                        rows="6"
+                        required
+                    ></textarea>
+
                 </div>
 
-                <button type="submit" class="submit-btn">Transmit File</button>
+                <button
+                    type="submit"
+                    class="submit-btn"
+                >
+                    Submit Suggestion
+                </button>
+
             </form>
+
+            <p
+                class="case-meta"
+                style="margin-top: 1rem;"
+            >
+                Submission functionality is currently under development.
+            </p>
+
         </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2026 True Crime Vault.</p>
+        <p>
+            &copy; 2026 True Crime Archive.
+            Independent student project maintained by
+            <strong>Violet Donna Michaels</strong>.
+        </p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
