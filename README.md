@@ -1,39 +1,54 @@
 # 🔎 True Crime Archive
 
-> **Status:** Active (and perpetually under construction between midterms)  
-> **Maintained by:** [Violet Donna Michaels](https://github.com/VioletMichaels07) (Duke '29)  
-> **Live Site:** [https://violetmichaels07.github.io/true-crime-archive/](https://violetmichaels07.github.io/true-crime-archive/)
+> **Status:** Active — continuously developed as an independent student project  
+> **Created and maintained by:** Violet Donna Michaels  
+> **Education:** Duke University, Class of 2029  
+> **GitHub:** [@VioletMichaels07](https://github.com/VioletMichaels07)  
+> **Live Site:** [True Crime Archive](https://violetmichaels07.github.io/true-crime-archive/)
 
 ---
 
 ## What is this?
 
-Hey. Welcome to the **True Crime Archive**. 
+Welcome to the **True Crime Archive**, an independent digital research project created and maintained by **Violet Donna Michaels**.
 
-I’m Violet (**@VioletMichaels07**)—I built this as a side project to organize a massive mess of research notes, case rabbit holes, and timelines I've collected over the years. Instead of keeping everything in chaotic Notion pages or physical notebooks, I wanted to turn it into a clean, searchable web archive. 
+I'm Violet (**@VioletMichaels07**), a Duke University undergraduate interested in biology, cultural anthropology, forensic science, investigative history, and digital research.
 
-It’s part digital portfolio to sharpen my frontend skills, and part genuine passion project combining my obsession with forensic science and investigative history.
+I created this archive as a way to organize research into cold cases, missing persons, historical investigations, and forensic methods while continuing to develop my skills in frontend development and digital information organization.
+
+The project brings together research, writing, data organization, and web development in one evolving archive.
 
 ---
 
-## What I'm Tracking Right Now
+## Research Interests
 
-* **Cold Cases:** Focusing heavily on regional US cold cases that haven't gotten national media coverage.
-* **Missing Persons:** Structuring public data to make profiles easier to digest and share.
-* **Forensic Breakthroughs:** Writing short explainers on how DNA phenotyping, genealogy, and newer tech change old investigations.
-* **Mapping/Timelines:** Tinkering with lightweight JS scripts to map out movements and event sequences.
+The archive currently focuses on:
 
-*(Check the `scripts/` folder if you want to see some of my messy Python data-parsing scripts—they work, but they aren't pretty).*
+- **Cold Cases** — investigative summaries and chronological timelines
+- **Missing Persons** — publicly documented unresolved disappearances
+- **Historical Cases** — older investigations and historical mysteries
+- **Forensic Science** — evidence, investigative methods, and emerging technologies
+- **Digital Research** — organizing and presenting public information through web technologies
+
+---
+
+## About the Researcher
+
+**Violet Donna Michaels** is a Duke University undergraduate, Class of 2029, studying biology with an interest in cultural anthropology.
+
+The True Crime Archive is an independent personal/student project. It is not affiliated with Duke University, any law-enforcement agency, government organization, or investigative authority.
 
 ---
 
 ## Project Structure
 
 ```text
-cases/         # Markdown files for individual case notes & profiles
-timelines/     # JSON & HTML structures for chronological case events
-maps/          # Leaflet/Mapbox experiments 
-data/          # CSVs and raw public datasets I've cleaned up
-images/        # Scanned clippings, public domain assets, diagrams
-assets/        # Custom CSS and styling
-scripts/       # Python scripts I use to automate formatting case files
+true-crime-archive/
+│
+├── index.html       # Main project page
+├── about.html       # About Violet and the project
+├── cases.html       # Case archive
+├── submit.html      # Case suggestion page
+├── style.css        # Site styling
+├── script.js        # Main site interactions
+└── search.js        # Archive search and filtering
