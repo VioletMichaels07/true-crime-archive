@@ -21,7 +21,7 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "True Crime Archive",
-      "url": "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME",
+      "url": "https://VioletMichaels07.github.io/true-crime-archive",
       "author": {
         "@type": "Person",
         "name": "Violet Donna Michaels"
@@ -32,44 +32,67 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dark-theme">
 
-<header>
-    <h1>TRUE CRIME ARCHIVE</h1>
-    <p class="tagline">Independent Research • Cold Cases • Missing Persons • Criminal Investigations</p>
-</header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">TRUE CRIME ARCHIVE</a>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
 
-<section class="hero">
-    <h2>Document. Analyze. Preserve.</h2>
-    <p>Welcome to the True Crime Archive, an independent research project curated by <strong>Violet Donna Michaels</strong>. This project documents criminal investigations, cold cases, historical mysteries, and missing persons through organized research, interactive storytelling, and modern web technologies.</p>
-</section>
+    <div class="container">
+        
+        <!-- Hero Section -->
+        <section class="case-card" style="margin-bottom: 2rem;">
+            <span class="badge unsolved">Research Hub</span>
+            <h2>Document. Analyze. Preserve.</h2>
+            <p class="case-meta" style="margin-top: 0.5rem;">Curated by <strong>Violet Donna Michaels</strong> (Duke '29)</p>
+            <p style="color: var(--text-secondary); margin-top: 1rem;">
+                Welcome to the True Crime Archive. This independent project documents criminal investigations, cold cases, historical mysteries, and missing persons through structured research, timelines, and modern web technologies.
+            </p>
+        </section>
 
-<section>
-    <h2>Areas of Research</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Cold Cases</h3>
-            <p>Investigative summaries and timelines.</p>
-        </div>
-        <div class="card">
-            <h3>Missing Persons</h3>
-            <p>Documenting unresolved disappearances.</p>
-        </div>
-        <div class="card">
-            <h3>Historical Cases</h3>
-            <p>Examining investigations from decades past.</p>
-        </div>
-        <div class="card">
-            <h3>Forensics</h3>
-            <p>Science, evidence, and investigative techniques.</p>
-        </div>
+        <!-- Areas of Research / Grid -->
+        <section>
+            <h2 style="color: var(--text-primary); margin-bottom: 0.5rem;">Areas of Research</h2>
+            <div class="grid-container">
+                <div class="case-card">
+                    <span class="badge unsolved">Focus</span>
+                    <h3>Cold Cases</h3>
+                    <p class="case-meta">Investigative summaries & timelines</p>
+                    <a href="#" class="read-more">Explore Cases &rarr;</a>
+                </div>
+                <div class="case-card">
+                    <span class="badge missing">Missing</span>
+                    <h3>Missing Persons</h3>
+                    <p class="case-meta">Documenting unresolved disappearances</p>
+                    <a href="#" class="read-more">View Records &rarr;</a>
+                </div>
+                <div class="case-card">
+                    <span class="badge unsolved">History</span>
+                    <h3>Historical Cases</h3>
+                    <p class="case-meta">Examining investigations from decades past</p>
+                    <a href="#" class="read-more">Read Archives &rarr;</a>
+                </div>
+                <div class="case-card">
+                    <span class="badge missing">Science</span>
+                    <h3>Forensics</h3>
+                    <p class="case-meta">Evidence and investigative techniques</p>
+                    <a href="#" class="read-more">Learn More &rarr;</a>
+                </div>
+            </div>
+        </section>
+
     </div>
-</section>
 
-<footer>
-    <p>Created and maintained by <span itemprop="author">Violet Donna Michaels</span></p>
-</footer>
+    <footer>
+        <p>True Crime Archive • Created and maintained by <span itemprop="author">Violet Donna Michaels</span></p>
+    </footer>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
