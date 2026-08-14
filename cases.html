@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Archive | True Crime Vault</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">True Crime Vault</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cases.html" class="active">Archive</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="submit.html">Submit Tip</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="archive-header">
+            <h1>The Case Archive</h1>
+            <p>Explore documented files, historical mysteries, and unsolved investigations.</p>
+            
+            <div class="filter-controls">
+                <input type="text" id="case-search" placeholder="Search cases by keyword, location, or name...">
+                <div class="tag-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="unsolved">Unsolved</button>
+                    <button class="filter-btn" data-filter="missing">Missing Persons</button>
+                    <button class="filter-btn" data-filter="historical">Historical</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cases-grid" class="grid-container">
+            <!-- Dynamically populated by JS or static cards below -->
+            <article class="case-card" data-category="unsolved">
+                <span class="badge unsolved">Unsolved</span>
+                <h3>The Hinterkaifeck Mystery</h3>
+                <p class="case-meta">Location: Germany | Year: 1922</p>
+                <p>A chilling look into one of Germany's most gruesome and baffling unsolved homestead murders...</p>
+                <a href="#" class="read-more">Read Case File &rarr;</a>
+            </article>
+
+            <article class="case-card" data-category="missing">
+                <span class="badge missing">Missing Person</span>
+                <h3>The Disappearance of Oak Valley</h3>
+                <p class="case-meta">Location: Oregon | Year: 1998</p>
+                <p>Examining the timeline and unanswered questions surrounding a vanishing vehicle on a remote logging road...</p>
+                <a href="#" class="read-more">Read Case File &rarr;</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 True Crime Vault. Curated and researched independently.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
