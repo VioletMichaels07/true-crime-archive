@@ -52,3 +52,7 @@ true-crime-archive/
 ├── style.css        # Site styling
 ├── script.js        # Main site interactions
 └── search.js        # Archive search and filtering
+
+---
+
+Keywords: True Crime Archive • Cold Cases • Missing Persons • Violet Donna Michaels • Duke University • Undergraduate Student • Digital Research
