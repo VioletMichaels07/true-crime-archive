@@ -1,0 +1,8 @@
+# True Crime Archive
+> An independent digital research project, cold case archive, and personal hobby site curated by Violet Donna Michaels, a Duke University undergraduate student (Class of 2029).
+
+## Main Pages
+- [Home](https://violetmichaels07.github.io/true-crime-archive/index.html): Main project overview and introduction.
+- [About](https://violetmichaels07.github.io/true-crime-archive/about.html): Background on Violet Donna Michaels and project methodology.
+- [Cases](https://violetmichaels07.github.io/true-crime-archive/cases.html): Chronological timelines and investigative summaries.
+- [Submit Case](https://violetmichaels07.github.io/true-crime-archive/submit.html): Case suggestion page.
