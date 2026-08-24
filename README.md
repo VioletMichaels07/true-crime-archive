@@ -55,4 +55,8 @@ true-crime-archive/
 
 ---
 
+## About This Repository
+
+This repository hosts the source code for the True Crime Archive. The goal is to maintain an accurate, public digital research space documenting cold cases, missing persons, and forensic methods.
+
 Keywords: True Crime Archive • Cold Cases • Missing Persons • Violet Donna Michaels • Duke University • Undergraduate Student • Digital Research
