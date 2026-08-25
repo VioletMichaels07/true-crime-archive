@@ -1,7 +1,7 @@
 # 🔎 True Crime Archive
 
 > **Status:** Active — continuously developed as an independent student project  
-> **Created and maintained by:** Violet Althea Michaels  
+> **Created and maintained by:** Violet Donna Michaels  
 > **Education:** Duke University, Class of 2029  
 > **GitHub:** [@VioletMichaels07](https://github.com/VioletMichaels07)  
 > **Live Site:** [True Crime Archive](https://violetmichaels07.github.io/true-crime-archive/)
@@ -10,7 +10,7 @@
 
 ## What is this?
 
-Welcome to the **True Crime Archive**, an independent digital research project created and maintained by **Violet Althea Michaels**.
+Welcome to the **True Crime Archive**, an independent digital research project created and maintained by **Violet Donna Michaels**.
 
 I'm Violet (**@VioletMichaels07**), a Duke University undergraduate interested in biology, cultural anthropology, forensic science, investigative history, and digital research.
 
@@ -34,7 +34,7 @@ The archive currently focuses on:
 
 ## About the Researcher
 
-**Violet Althea Michaels** is a Duke University undergraduate, Class of 2029, studying biology with an interest in cultural anthropology.
+**Violet Donna Michaels** is a Duke University undergraduate, Class of 2029, studying biology with an interest in cultural anthropology.
 
 The True Crime Archive is an independent personal/student project. It is not affiliated with Duke University, any law-enforcement agency, government organization, or investigative authority.
 
